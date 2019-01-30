@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Samir's Media Player</title>
+    <link rel="stylesheet" href="css/style.css">
+                                <!--font awesom CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+                                <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+                                <!-- START HEADER -->
+    <!-- <div class="header">
+        <p class="text-center">Listen Album</p>
+        <span class="arrow"><i class="fa fa-arrow-circle-down fa-3x"></i></span>
+    </div>  -->
+                                <!-- END HEADER -->
+
+                                <!-- START Player -->
+    <section class="player">
+        <div class="row">
+            <div class="musicList col-lg-6 col-md-12 col-sm-12">
+                <div class="container">
+                    <h1><span class="mainColor">Latest</span><span class="whiteCol"> Release</span></h1>
+                    <p>Mohtama Beltafasel (New Album) - include 13 tracks</p>
+                    <div class="list">
+                        <!-- <ul>
+                            <li class="active" url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Ana.Batkhan.mp3"><span class="number">01 </span>Ana.Batkhan<span class="time">04:41</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Ased.Aih.mp3"><span class="number">02 </span>Ased.Aih<span class="time">04:03</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Hay.Ollek.mp3"><span class="number">03 </span>Hay.Ollek<span class="time">03:21</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Kam.Marra.mp3"><span class="number">04 </span>Kam.Marra<span class="time">04:09</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Kefaya.Kelma.mp3"><span class="number">05 </span>Kefaya.Kelma<span class="time">04:03</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Koll.Amma.Teftekroo.mp3"><span class="number">06 </span>Koll.Amma.Teftekroo<span class="time">03:33</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Meen.Feena.mp3"><span class="number">07 </span>Meen.Feena<span class="time">03:24</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Mohtamma.Bel.Tafaseel.mp3"><span class="number">08 </span>Mohtamma.Bel.Tafaseel<span class="time">04:12</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Rejea.El.Farah.mp3"><span class="number">09 </span>Rejea.El.Farah<span class="time">05:10</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Sandoo.Sgheer.mp3"><span class="number">10 </span>Sandoo.Sgheer<span class="time">02:56</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Shoo.Baddak.mp3"><span class="number">11 </span>Shoo.Baddak<span class="time">04:54</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Ya.Aalem.mp3"><span class="number">12 </span>Ya.Aalem<span class="time">04:07</span></li>
+                            <li url="F:\progrmming-Vedios\WEB\Practical\player\asala\Assala_Youm.El.Raheel.mp3"><span class="number">13 </span>Youm.El.Raheel<span class="time">05:19</span></li>
+                        </ul> -->
+                        <ul>
+                            <li class="active" url="http://ms16.sm3na.com/282/Sm3na_com_47380.mp3"><span class="number">01 </span>Ana.Batkhan<span class="time">04:41</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47371.mp3"><span class="number">02 </span>Ased.Aih<span class="time">04:03</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47370.mp3"><span class="number">03 </span>Hay.Ollek<span class="time">03:21</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47372.mp3"><span class="number">04 </span>Kam.Marra<span class="time">04:09</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47369.mp3"><span class="number">05 </span>Kefaya.Kelma<span class="time">04:03</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47376.mp3"><span class="number">06 </span>Koll.Amma.Teftekroo<span class="time">03:33</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47373.mp3"><span class="number">07 </span>Meen.Feena<span class="time">03:24</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47368.mp3"><span class="number">08 </span>Mohtamma.Bel.Tafaseel<span class="time">04:12</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47377.mp3"><span class="number">09 </span>Rejea.El.Farah<span class="time">05:10</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47378.mp3"><span class="number">10 </span>Sandoo.Sgheer<span class="time">02:56</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47379.mp3"><span class="number">11 </span>Shoo.Baddak<span class="time">04:54</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47374.mp3"><span class="number">12 </span>Ya.Aalem<span class="time">04:07</span></li>
+                            <li url="http://ms16.sm3na.com/282/Sm3na_com_47375.mp3"><span class="number">13 </span>Youm.El.Raheel<span class="time">05:19</span></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <p class="whiteCol">THE NEW ALBUM AVALABLE NOW</p>
+                    <div class="brand text-center row">
+                        <span class="col-lg-6 col-sm-12"><i class="fa fa-apple fa-2x"> iTunes</i></span>
+                        <span class="col-lg-6 col-sm-12"><i class="fa fa-spotify fa-2x"> Spotify</i></span>
+                        <span class="col-lg-12 col-sm-12"><i class="fa fa-amazon fa-2x"><span class="amazonmusic"> mazon<span class="musicpart">music</span></span></i></span>
+                        <div class="clearfix"></div> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="musicPlayer text-center col-lg-6 col-md-12">
+                <div class="overlay col-md-12 col-xs-12">
+                    <div class="progress" id="seekBar"><span class="progress-bar seekBar "  style="height: 5px;background: #EC135A;" aria-valuemin="0" aria-valuemax="100"></span></div>
+                    <audio id="myPlayer" src="http://ms16.sm3na.com/282/Sm3na_com_47380.mp3" ></audio>
+                    <button class="fa fa-backward fa-2x"></button>
+                    <button class="fa fa-play fa-3x" ></button>
+                    <span  class="pause hidden"><button class="fa fa-pause fa-3x"></button></span>
+                    <button class="fa fa-forward fa-2x"></button>
+                    <button class="fa fa-volume-off fa-2x"></button>
+                    <button class="fa fa-volume-down fa-2x"></button>
+                    <button class="fa fa-volume-up fa-2x"></button>
+                    <span class="curTime timer">00:00</span>
+                    <span class="timer">/</span>
+                    <span class="totalTime timer">00:00</span>
+                    <a href="#">
+                        <span class="shop"><i class="fa fa-shopping-bag fa-2x"></i>  BUY THIS TRACK</span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+                                <!-- END Player -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	<!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/myscript.js"></script>
+</body>
+</html>
